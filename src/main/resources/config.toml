@@ -1,0 +1,19 @@
+[awsEC2]
+region=""
+cliKey=""
+cliSecret=""
+
+[servers]
+# Enter config with this format:
+
+# [servers.<your_velocity_server_name>]
+# idleTimeout = 900
+# permission = "server.connect.server-1"
+
+# <your_velocity_server_name> replaced with your minecraft server name in velocity servers config
+#
+# idleTimeout ->
+#    is how long (seconds) does this plugin have to wait for server inactivity before shutting down the instance
+#
+# permission ->
+#    permission required (LuckPerms) to access this server (empty it out for no permission)
